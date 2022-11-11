@@ -1,0 +1,1 @@
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectMAUI\DemoProjectMAUI.csproj;x64

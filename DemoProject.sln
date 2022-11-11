@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProjectMAUI", "DemoProjectMAUI\DemoProjectMAUI.csproj", "{BCA552C0-9F2C-4CB9-9B28-8522C22A2829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProjectWPF", "DemoProjectWPF\DemoProjectWPF.csproj", "{97DE89D1-429E-43B2-B33E-7C1AA28E5E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProjectAspNetMVC", "DemoProjectAspNetMVC\DemoProjectAspNetMVC.csproj", "{A7C68F71-D5DF-4B20-BE16-4E37C2DD44D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCA552C0-9F2C-4CB9-9B28-8522C22A2829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA552C0-9F2C-4CB9-9B28-8522C22A2829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA552C0-9F2C-4CB9-9B28-8522C22A2829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA552C0-9F2C-4CB9-9B28-8522C22A2829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97DE89D1-429E-43B2-B33E-7C1AA28E5E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97DE89D1-429E-43B2-B33E-7C1AA28E5E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97DE89D1-429E-43B2-B33E-7C1AA28E5E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97DE89D1-429E-43B2-B33E-7C1AA28E5E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C68F71-D5DF-4B20-BE16-4E37C2DD44D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C68F71-D5DF-4B20-BE16-4E37C2DD44D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C68F71-D5DF-4B20-BE16-4E37C2DD44D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C68F71-D5DF-4B20-BE16-4E37C2DD44D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
