@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lH+SUszILC6wIktHWl4UcOIreiKjTc2x+awxD6i30kA=",
+  "Hash": "hQUTVaVoBigEflr6F3sNj8OcMGPRLuaouWePrq83JoI=",
   "Source": "DemoProjectAspNetMVC",
   "BasePath": "_content/DemoProjectAspNetMVC",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\artge\\RiderProjects\\DemoProject\\DemoProjectAspNetMVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DemoProjectAspNetMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\artge\\RiderProjects\\DemoProject\\DemoProjectAspNetMVC\\wwwroot\\css\\bootswatchTheme.css",
+      "SourceId": "DemoProjectAspNetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\artge\\RiderProjects\\DemoProject\\DemoProjectAspNetMVC\\wwwroot\\",
+      "BasePath": "_content/DemoProjectAspNetMVC",
+      "RelativePath": "css/bootswatchTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchTheme.css"
     },
     {
       "Identity": "C:\\Users\\artge\\RiderProjects\\DemoProject\\DemoProjectAspNetMVC\\wwwroot\\css\\site.css",
