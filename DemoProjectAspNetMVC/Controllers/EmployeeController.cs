@@ -102,7 +102,7 @@ namespace DemoProjectAspNetMVC.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeletePOST(int? id)
+        public IActionResult DeletePost(int? id)
         {
             var obj = _dataContext.Employees.Find(id);
             if (obj == null)
