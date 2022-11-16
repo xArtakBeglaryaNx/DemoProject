@@ -19,7 +19,7 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div class="col-10 d-flex ps-5">
             <a class="navbar-brand" asp-controller="Home" asp-action="Index">@Localizer["title"]</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,10 @@
                 </ul>
             </div>
         </div>
+        <div class="col-2 pe-5">
+            <partial name="_SelectLanguagePartial"/>
+        </div>
+        
     </nav>
 </header>
 <div class="container">

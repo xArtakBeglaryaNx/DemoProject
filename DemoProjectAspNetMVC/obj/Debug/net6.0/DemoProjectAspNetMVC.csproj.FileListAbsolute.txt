@@ -612,3 +612,9 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\D
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.SharedResource.zh-hans.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Shared._Layout.es.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Shared._Layout.zh-hans.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Controllers.EmployeeController.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Controllers.EmployeeController.es.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Controllers.EmployeeController.zh-hans.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.es.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.zh-hans.resources

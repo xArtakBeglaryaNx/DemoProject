@@ -7,16 +7,19 @@ using System.Threading.Tasks;
 using DemoProjectAspNetMVC.Data;
 using DemoProjectAspNetMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 
 namespace DemoProjectAspNetMVC.Controllers
 {
     public class EmployeeController : Controller
     {
         private readonly DataContext _dataContext;
+        private readonly IStringLocalizer<EmployeeController> _Localizer;
 
-        public EmployeeController(DataContext dataContext)
+        public EmployeeController(DataContext dataContext, IStringLocalizer<EmployeeController> localizer)
         {
             _dataContext = dataContext;
+            _Localizer = localizer;
         }
         
         public IActionResult Index()
@@ -38,11 +41,11 @@ namespace DemoProjectAspNetMVC.Controllers
         {
             if (employee.FirstName == employee.Post)
             {
-                ModelState.AddModelError("Error", "The Post can't exactly match the First name");
+                ModelState.AddModelError("Error", _Localizer["postFirstNameError"]);
             }
             if (employee.LastName == employee.Post)
             {
-                ModelState.AddModelError("Error", "The Post can't exactly match the Last name");
+                ModelState.AddModelError("Error", _Localizer["postLastName"]);
             }
             if (ModelState.IsValid)
             {
@@ -72,11 +75,11 @@ namespace DemoProjectAspNetMVC.Controllers
         {
             if (employee.FirstName == employee.Post)
             {
-                ModelState.AddModelError("Error", "The Post can't exactly match the First name");
+                ModelState.AddModelError("Error", _Localizer["postFirstNameError"]);
             }
             if (employee.LastName == employee.Post)
             {
-                ModelState.AddModelError("Error", "The Post can't exactly match the Last name");
+                ModelState.AddModelError("Error", _Localizer["postLastName"]);
             }
             if (ModelState.IsValid)
             {

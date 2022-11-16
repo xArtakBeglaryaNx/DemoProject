@@ -47,10 +47,22 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>SharedResource.Designer.cs</LastGenOutput>
       </EmbeddedResource>
-      <EmbeddedResource Update="Resources\SharedResource.resx">
+      <EmbeddedResource Update="Resources\Controllers\EmployeeController.resx">
         <Generator>PublicResXFileCodeGenerator</Generator>
-        <LastGenOutput>SharedResource.Designer.cs</LastGenOutput>
+        <LastGenOutput>EmployeeController.Designer.cs</LastGenOutput>
       </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Models\Employee.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Employee.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Models\Employee.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Employee.resx</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>
