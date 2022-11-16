@@ -606,10 +606,7 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\D
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Employee.Index.en.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Employee.Index.es.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Employee.Index.zh-hans.resources
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.SharedResource.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Shared._Layout.resources
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.SharedResource.es.resources
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.SharedResource.zh-hans.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Shared._Layout.es.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Shared._Layout.zh-hans.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Controllers.EmployeeController.resources
