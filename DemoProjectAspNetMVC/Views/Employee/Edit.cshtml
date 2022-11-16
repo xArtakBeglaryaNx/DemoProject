@@ -1,15 +1,18 @@
+@using Microsoft.AspNetCore.Mvc.Localization
 @model Employee
+
+@inject IViewLocalizer Localizer
 
 <form method="post" class="col-4" asp-action="Edit">
     <div class="border p-3 mt-4">
         <div class="row pb-2">
-            <h2 class="text-primary">Edit Employee</h2>
+            <h2 class="text-primary">@Localizer["editEmployee"]</h2>
             <hr/>
         </div>
         <div asp-validation-summary="All"></div>
         <div class="row mb-1">
             <div class="col-3">
-                <label asp-for="FirstName">First Name</label>
+                <label asp-for="FirstName">@Localizer["firstName"]</label>
             </div>
             <div class="col-4 ms-2">
                 <input asp-for="FirstName" />
@@ -18,7 +21,7 @@
         </div>
         <div class="row mb-1">
             <div class="col-3">
-                <label asp-for="LastName">Last Name</label>
+                <label asp-for="LastName">@Localizer["lastName"]</label>
             </div>
             <div class="col-4 ms-2">
                 <input asp-for="LastName" />
@@ -27,16 +30,16 @@
         </div>
         <div class="row mb-1">
             <div class="col-3">
-                <label asp-for="Post">Post</label>
+                <label asp-for="Post">@Localizer["post"]</label>
             </div>
             <div class="col-4 ms-2">
                 <input asp-for="Post" />
                 <span asp-validation-for="Post" class="text-danger"></span>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary mt-3" style="width: 150px">Update</button>
+        <button type="submit" class="btn btn-primary mt-3" style="width: 150px">@Localizer["update"]</button>
         <a asp-controller="Employee" asp-action="Index" class="btn btn-secondary mt-3 ms-3" style="width: 150px">
-            Back to List
+            @Localizer["backToList"]
         </a>
     </div>
 </form>

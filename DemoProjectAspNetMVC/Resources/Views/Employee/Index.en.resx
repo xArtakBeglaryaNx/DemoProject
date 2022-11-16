@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="main" xml:space="preserve">
+        <value>Main</value>
+    </data>
+    <data name="employee" xml:space="preserve">
+        <value>Employee</value>
+    </data>
+    <data name="seeMore" xml:space="preserve">
+        <value>See more</value>
+    </data>
+    <data name="listOfEmployees" xml:space="preserve">
+        <value>List of employees</value>
+    </data>
+    <data name="addNewEmployee" xml:space="preserve">
+        <value>Add new employee</value>
+    </data>
+    <data name="edit" xml:space="preserve">
+        <value>Edit</value>
+    </data>
+    <data name="delete" xml:space="preserve">
+        <value>Delete</value>
+    </data>
+    <data name="addEmployee" xml:space="preserve">
+        <value>Add employee</value>
+    </data>
+    <data name="add" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="backToList" xml:space="preserve">
+        <value>Back to list</value>
+    </data>
+    <data name="firstName" xml:space="preserve">
+        <value>First name</value>
+    </data>
+    <data name="lastName" xml:space="preserve">
+        <value>Last name</value>
+    </data>
+    <data name="editEmployee" xml:space="preserve">
+        <value>Edit employee</value>
+    </data>
+    <data name="update" xml:space="preserve">
+        <value>Update</value>
+    </data>
+    <data name="deleteEmployee" xml:space="preserve">
+        <value>Delete employee</value>
+    </data>
+    <data name="post" xml:space="preserve">
+        <value>Post</value>
+    </data>
+    <data name="date" xml:space="preserve">
+        <value>Date</value>
+    </data>
+</root>

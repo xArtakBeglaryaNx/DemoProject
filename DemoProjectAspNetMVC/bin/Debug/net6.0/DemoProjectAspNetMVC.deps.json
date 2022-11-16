@@ -322,6 +322,17 @@
         "runtime": {
           "DemoProjectAspNetMVC.dll": {}
         },
+        "resources": {
+          "es/DemoProjectAspNetMVC.resources.dll": {
+            "locale": "es"
+          },
+          "zh-hans/DemoProjectAspNetMVC.resources.dll": {
+            "locale": "zh-hans"
+          },
+          "en/DemoProjectAspNetMVC.resources.dll": {
+            "locale": "en"
+          }
+        },
         "compile": {
           "DemoProjectAspNetMVC.dll": {}
         }

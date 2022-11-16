@@ -1,19 +1,21 @@
+@using Microsoft.AspNetCore.Mvc.Localization
 @model IEnumerable<Employee>
 
+@inject IViewLocalizer Localizer 
+
 @{
-    ViewBag.Title = "Employee List";
+    ViewBag.Title = Localizer["listOfEmployees"];
     Layout = "_Layout";
 }
 
 <div class="container p-3">
-
     <div class="row pt-4">
         <div class="col-6">
-            <h2 class="text-primary"> Employees List</h2>
+            <h2 class="text-primary">&nbsp;@Localizer["listOfEmployees"]</h2>
         </div>
         <div class="col-6 text-end">
             <a asp-controller="Employee" asp-action="Create" class="btn btn-primary">
-                <i class="bi bi-person-plus"></i>&nbsp; Add new employee
+                <i class="bi bi-person-plus"></i>&nbsp;@Localizer["addNewEmployee"]
             </a>
         </div>
     </div>
@@ -23,16 +25,16 @@
         <thead>
         <tr>
             <th>
-                First Name
+                @Localizer["firstName"]
             </th>
             <th>
-                Last Name
+                @Localizer["lastName"]
             </th>
             <th>
-                Post
+                @Localizer["post"]
             </th>
             <th>
-                Date
+                @Localizer["date"]
             </th>
             <th></th>
         </tr>
@@ -57,10 +59,10 @@
                 <td>
                     <div class="w-75 btn-group" role="group">
                         <a asp-controller="Employee" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-primary mx-1">
-                            <i class="bi bi-pencil-square"></i>&nbsp;Edit
+                            <i class="bi bi-pencil-square"></i>&nbsp;@Localizer["edit"]
                         </a>
                         <a asp-controller="Employee" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger mx-1">
-                            <i class="bi bi-person-x-fill"></i>&nbsp;Delete
+                            <i class="bi bi-person-x-fill"></i>&nbsp;@Localizer["delete"]
                         </a>
                     </div>
                 </td>
