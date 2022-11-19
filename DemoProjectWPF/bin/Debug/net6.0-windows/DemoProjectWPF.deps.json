@@ -9,6 +9,7 @@
       "DemoProjectWPF/1.0.0": {
         "dependencies": {
           "Haley.MVVM": "6.3.0-beta6",
+          "MaterialDesignThemes": "4.7.0-ci369",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.0",
@@ -131,6 +132,26 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "MaterialDesignColors/2.1.0-ci369": {
+        "runtime": {
+          "lib/net6.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "MaterialDesignThemes/4.7.0-ci369": {
+        "dependencies": {
+          "MaterialDesignColors": "2.1.0-ci369",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
+        },
+        "runtime": {
+          "lib/net6.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "4.7.0.0",
+            "fileVersion": "4.7.0.0"
           }
         }
       },
@@ -983,6 +1004,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "MaterialDesignColors/2.1.0-ci369": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K+P7M2biRQlSM/hP3vJy7gktG1a6YhByXDdjhoqTB8eMkm00uGltXG88eKMimpIIUwJ0VycqOVlVXXaJi0oaVQ==",
+      "path": "materialdesigncolors/2.1.0-ci369",
+      "hashPath": "materialdesigncolors.2.1.0-ci369.nupkg.sha512"
+    },
+    "MaterialDesignThemes/4.7.0-ci369": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Ma3KBgQVNtCq+g0alNvAA6Vny1K1A4s2JTw4swSyYS06JyhykRlFQHoVcBFRiiIsuRXHf15628pC1l2GHVliA==",
+      "path": "materialdesignthemes/4.7.0-ci369",
+      "hashPath": "materialdesignthemes.4.7.0-ci369.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

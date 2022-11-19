@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a6wVucBrpaehSldhIxo8Or2xFUcwP4JtnpnvlWR3Omfy2PQ+2/q3xdTSe1jhnoGKvLe07WUpLRuoFa11/T6sKw==",
+  "dgSpecHash": "bPp64BDZN9CA6UfSP0sJrhk8rt1I4F6czSXEXZOwQSpAr6TFI84jElVtRWjxo9tUhbIhJjoYBVxigU1F2D4cvQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\artge\\RiderProjects\\DemoProject\\DemoProjectWPF\\DemoProjectWPF.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\artge\\.nuget\\packages\\haley.ioc\\3.0.13\\haley.ioc.3.0.13.nupkg.sha512",
     "C:\\Users\\artge\\.nuget\\packages\\haley.mvvm\\6.3.0-beta6\\haley.mvvm.6.3.0-beta6.nupkg.sha512",
     "C:\\Users\\artge\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\artge\\.nuget\\packages\\materialdesigncolors\\2.1.0-ci369\\materialdesigncolors.2.1.0-ci369.nupkg.sha512",
+    "C:\\Users\\artge\\.nuget\\packages\\materialdesignthemes\\4.7.0-ci369\\materialdesignthemes.4.7.0-ci369.nupkg.sha512",
     "C:\\Users\\artge\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\artge\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\artge\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

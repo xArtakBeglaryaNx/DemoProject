@@ -49,6 +49,10 @@
               "target": "Package",
               "version": "[6.3.0-beta6, )"
             },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.7.0-ci369, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"

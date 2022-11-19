@@ -113,3 +113,5 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\bin\Debug\net6.0-windows
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\obj\Debug\net6.0-windows\es\DemoProjectWPF.resources.cs
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\obj\Debug\net6.0-windows\zh-hans\DemoProjectWPF.resources.cs
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectWPF\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
