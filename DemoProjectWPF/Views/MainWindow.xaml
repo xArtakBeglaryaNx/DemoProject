@@ -4,43 +4,58 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DemoProjectWPF"
+        xmlns:haley="http://schemas.hpod9.com/haley/mvvm"
         mc:Ignorable="d"
         Title="Demo Project" Height="450" Width="800"
         Background="#00284F"
         BorderBrush="#DB9721"
-        BorderThickness="3">
+        BorderThickness="3"
+        WindowStyle="SingleBorderWindow"
+        Name="DemoProjectMainWindow">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="12*"/>
-            <RowDefinition Height="90*"/>
+            <RowDefinition Height="12*" />
+            <RowDefinition Height="90*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Viewbox Grid.Column="0" Grid.Row="0">
+        <Viewbox Grid.Column="0" Grid.Row="0" VerticalAlignment="Top"
+                 HorizontalAlignment="Left" Height="40" Margin="20,5,0,0">
             <Border Style="{StaticResource BorderStyle}">
-                <Label Content="Demo project WPF" Style="{StaticResource TitleLabelStyle}" />
+                <Label Content="{haley:Lang title}" Style="{StaticResource TitleLabelStyle}"
+                       Background="#DB9721" FontSize="22" Foreground="#00284F" FontFamily="Impact" />
             </Border>
         </Viewbox>
-        
-        <Viewbox Grid.Column="2" Grid.Row="0">
-            <Border Width="100" Margin="90,3,3,3" Style="{StaticResource BorderStyle}">
-                <Label Content="Language" Style="{StaticResource TitleLabelStyle}" />
-            </Border>
-        </Viewbox>
-        
-        
-        <Viewbox Grid.Column="3" Grid.Row="0">
-            <Border Style="{StaticResource BorderStyle}">
-                <ComboBox Foreground="#DB9721">
-                    <ComboBoxItem>En</ComboBoxItem>
-                    <ComboBoxItem>En</ComboBoxItem>
-                    <ComboBoxItem>En</ComboBoxItem>
-                </ComboBox>
-            </Border>            
-        </Viewbox>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Viewbox Margin="0,5,240,0" Height="37">
+                <Menu Style="{StaticResource MainMenuStyle}">
+                    <MenuItem Header="{haley:Lang menu}" Style="{StaticResource MenuItemStyle}">
+                        <MenuItem Header="{haley:Lang menuAdd}" Style="{StaticResource MenuItemStyle}" />
+                        <MenuItem Header="{haley:Lang menuEdit}" Style="{StaticResource MenuItemStyle}" />
+                        <MenuItem Header="{haley:Lang menuAbout}" Style="{StaticResource MenuItemStyle}" />
+                        <MenuItem Header="{haley:Lang menuClose}" Style="{StaticResource MenuItemStyle}" />
+                    </MenuItem>
+                </Menu>
+            </Viewbox>
+
+            <Viewbox Margin="0,5,20,0" Height="35">
+                <Border Style="{StaticResource BorderStyle}">
+                    <ComboBox Name="LanguageComboBox" Foreground="#DB9721" DisplayMemberPath="LanguageName" 
+                              DataContext="{Binding ElementName=DemoProjectMainWindow, Path=LanguageViewModel}"
+                              ItemsSource="{Binding SupportedLanguages}"
+                              FontSize="20" FontFamily="Segoe UI" HorizontalContentAlignment="Center"
+                              SelectionChanged="LanguageComboBox_OnSelectionChanged">
+                    </ComboBox>
+                </Border>
+            </Viewbox>
+        </StackPanel>
+        <TabControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <TabItem>
+                    
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>

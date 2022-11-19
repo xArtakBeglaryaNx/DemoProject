@@ -3,21 +3,13 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using DemoProjectWPF.Models;
+using DemoProjectWPF.Properties;
 
 namespace DemoProjectWPF.ViewModels;
 
-public class LanguageViewModel : INotifyPropertyChanged
+public sealed class LanguageViewModel : INotifyPropertyChanged
 {
-    private ObservableCollection<LanguageModel> _supportedLanguages;
-    public ObservableCollection<LanguageModel> SupportedLanguages
-    {
-        get => _supportedLanguages;
-        set
-        {
-            value = _supportedLanguages;
-            OnPropertyChanged(nameof(_supportedLanguages));
-        }
-    }
+    public ObservableCollection<LanguageModel> SupportedLanguages { get; set; }
 
     private LanguageModel _selectedLanguage;
     public LanguageModel SelectedLanguage
@@ -34,23 +26,45 @@ public class LanguageViewModel : INotifyPropertyChanged
     {
         SupportedLanguages = new ObservableCollection<LanguageModel>()
         {
-            new LanguageModel() { Name = "en", CultureInfo = "en-US" },
-            new LanguageModel() { Name = "zh", CultureInfo = "zh-HANS" },
-            new LanguageModel() { Name = "es", CultureInfo = "es-ES" }
+            new LanguageModel() { LanguageName = "English", CultureInfo = "en-US" },
+            new LanguageModel() { LanguageName = "简体中文", CultureInfo = "zh-HANS" },
+            new LanguageModel() { LanguageName = "Español", CultureInfo = "es-ES" }
         };
     }
-    
-    
 
+    public void SelectLanguage(int index)
+    {
+        switch (index)
+        {
+            case 0:
+                Settings.Default.langCode = "en-US";
+                App.ChangeCulture(Settings.Default.langCode);
+                Settings.Default.defaultIndexCombobox = index;
+                break;
+            case 1:
+                Settings.Default.langCode = "zh-HANS";
+                App.ChangeCulture(Settings.Default.langCode);
+                Settings.Default.defaultIndexCombobox = index;
+                break;
+            case 2:
+                Settings.Default.langCode = "es-ES";
+                App.ChangeCulture(Settings.Default.langCode);
+                Settings.Default.defaultIndexCombobox = index;
+                break;
+        }
+        Settings.Default.Save();
+    }
 
     #region NotifyPropertyChanged
 
     public event PropertyChangedEventHandler? PropertyChanged;
-        protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+
+    private void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        protected bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
+
+    private bool SetField<T>(ref T field, T value, [CallerMemberName] string? propertyName = null)
         {
             if (EqualityComparer<T>.Default.Equals(field, value)) return false;
             field = value;

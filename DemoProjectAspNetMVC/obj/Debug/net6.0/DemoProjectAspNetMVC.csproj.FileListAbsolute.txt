@@ -584,13 +584,10 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\r
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\es\DemoProjectAspNetMVC.resources.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\zh-hans\DemoProjectAspNetMVC.resources.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.csproj.GenerateResource.cache
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\es\DemoProjectAspNetMVC.resources.cs
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\es\DemoProjectAspNetMVC.resources.dll
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\zh-hans\DemoProjectAspNetMVC.resources.cs
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\zh-hans\DemoProjectAspNetMVC.resources.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\en\DemoProjectAspNetMVC.resources.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Home.Index.en.resources
-C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\en\DemoProjectAspNetMVC.resources.cs
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\en\DemoProjectAspNetMVC.resources.dll
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Home.Index.es.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Views.Home.Index.zh-hans.resources
@@ -615,3 +612,10 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\D
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.es.resources
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\DemoProjectAspNetMVC.Resources.Models.Employee.zh-hans.resources
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\alpine-arm\native\libe_sqlite3.so
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\alpine-arm64\native\libe_sqlite3.so
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\browser-wasm\nativeassets\net6.0\e_sqlite3.a
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
