@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using DemoProjectAspNetMVC.Data;
 using DemoProjectAspNetMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 
 namespace DemoProjectAspNetMVC.Controllers
@@ -14,12 +15,13 @@ namespace DemoProjectAspNetMVC.Controllers
     public class EmployeeController : Controller
     {
         private readonly DataContext _dataContext;
-        private readonly IStringLocalizer<EmployeeController> _Localizer;
+        private readonly IStringLocalizer<EmployeeController> _localizer;
+        private readonly bool _flag = false;
 
         public EmployeeController(DataContext dataContext, IStringLocalizer<EmployeeController> localizer)
         {
             _dataContext = dataContext;
-            _Localizer = localizer;
+            _localizer = localizer;
         }
         
         public IActionResult Index()
@@ -41,11 +43,11 @@ namespace DemoProjectAspNetMVC.Controllers
         {
             if (employee.FirstName == employee.Post)
             {
-                ModelState.AddModelError("Error", _Localizer["postFirstNameError"]);
+                ModelState.AddModelError("Error", _localizer["postFirstNameError"]);
             }
             if (employee.LastName == employee.Post)
             {
-                ModelState.AddModelError("Error", _Localizer["postLastName"]);
+                ModelState.AddModelError("Error", _localizer["postLastName"]);
             }
             if (ModelState.IsValid)
             {
@@ -75,11 +77,11 @@ namespace DemoProjectAspNetMVC.Controllers
         {
             if (employee.FirstName == employee.Post)
             {
-                ModelState.AddModelError("Error", _Localizer["postFirstNameError"]);
+                ModelState.AddModelError("Error", _localizer["postFirstNameError"]);
             }
             if (employee.LastName == employee.Post)
             {
-                ModelState.AddModelError("Error", _Localizer["postLastName"]);
+                ModelState.AddModelError("Error", _localizer["postLastName"]);
             }
             if (ModelState.IsValid)
             {

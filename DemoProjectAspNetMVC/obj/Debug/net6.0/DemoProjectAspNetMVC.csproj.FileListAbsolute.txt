@@ -619,3 +619,11 @@ C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\r
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
 C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\bin\Debug\net6.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\es\DemoProjectAspNetMVC.resources.cs
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\zh-hans\DemoProjectAspNetMVC.resources.cs
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\en\DemoProjectAspNetMVC.resources.cs
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\staticwebassets\msbuild.DemoProjectAspNetMVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\staticwebassets\msbuild.build.DemoProjectAspNetMVC.props
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DemoProjectAspNetMVC.props
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DemoProjectAspNetMVC.props
+C:\Users\artge\RiderProjects\DemoProject\DemoProjectAspNetMVC\obj\Debug\net6.0\staticwebassets.pack.json

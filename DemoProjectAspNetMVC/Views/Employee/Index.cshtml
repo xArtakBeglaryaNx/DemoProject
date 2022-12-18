@@ -1,6 +1,5 @@
 @using Microsoft.AspNetCore.Mvc.Localization
 @model IEnumerable<Employee>
-
 @inject IViewLocalizer Localizer 
 
 @{
@@ -25,16 +24,24 @@
         <thead>
         <tr>
             <th>
-                @Localizer["firstName"]
+                <a asp-controller="Employee" class="btn btn-primary">
+                    @Localizer["firstName"]
+                </a>
             </th>
             <th>
-                @Localizer["lastName"]
+                <a asp-controller="Employee" class="btn btn-primary">
+                    @Localizer["lastName"]
+                </a>
             </th>
             <th>
-                @Localizer["post"]
+                <a asp-controller="Employee" class="btn btn-primary">
+                    @Localizer["post"]
+                </a>
             </th>
             <th>
-                @Localizer["date"]
+                <a asp-controller="Employee" class="btn btn-primary">
+                    @Localizer["date"]
+                </a>
             </th>
             <th></th>
         </tr>
