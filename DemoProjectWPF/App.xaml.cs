@@ -20,7 +20,7 @@ namespace DemoProjectWPF
     /// </summary>
     public partial class App : Application
     {
-        private readonly string _connectionStringToServer = "Server=ARTDT-K\\SQLEXPRESS;Database=DemoProject;Trusted_Connection=true;TrustServerCertificate=true;";
+        private readonly string _connectionStringToServer = "Server=.\\SQLEXPRESS;Database=DemoProject;Trusted_Connection=true;TrustServerCertificate=true;";
         
         protected override void OnStartup(StartupEventArgs e)
         {
@@ -33,7 +33,7 @@ namespace DemoProjectWPF
                 SqlConnection sqlConnection = new SqlConnection(_connectionStringToServer);
                 sqlConnection.OpenAsync();
 
-                if (Environment.HasShutdownStarted)
+                if (Environment.ExitCode == 0)
                 {
                     sqlConnection.CloseAsync();
                 }

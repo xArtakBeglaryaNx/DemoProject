@@ -53,15 +53,27 @@
                 </Border>
             </Viewbox>
         </StackPanel>
-        <TabControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
-            <TabItem Header="Toommy">
-                    
-            </TabItem>
-            <TabItem Header="Toommy">
-                    
-            </TabItem>
-            <TabItem Header="Toommy">
-                    
+        <TabControl x:Name="EmployeesTabControl" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+            <TabItem Header="{haley:Lang employeesList}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="AddEmployeeButton" Grid.Column="2" Grid.Row="0" Margin="0,20,15,0" 
+                            Content="{haley:Lang menuAdd}" Click="AddEmployeeButton_OnClick"></Button>
+                    <DataGrid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" Margin="15,20,15,20"></DataGrid>
+                    <Button Grid.Column="1" Grid.Row="2" Margin="0,20,15,20" 
+                            Content="{haley:Lang menuEdit}"></Button>
+                    <Button Grid.Column="2" Grid.Row="2" Margin="0,20,15,20" 
+                            Content="{haley:Lang menuDelete}"></Button>
+                </Grid>
             </TabItem>
         </TabControl>
     </Grid>
