@@ -24,22 +24,22 @@
         <thead>
         <tr>
             <th>
-                <a asp-controller="Employee" class="btn btn-primary">
+                <a asp-controller="Employee" asp-action="SortByName" class="btn btn-primary">
                     @Localizer["firstName"]
                 </a>
             </th>
             <th>
-                <a asp-controller="Employee" class="btn btn-primary">
+                <a asp-controller="Employee" asp-action="SortByNameLastName" class="btn btn-primary">
                     @Localizer["lastName"]
                 </a>
             </th>
             <th>
-                <a asp-controller="Employee" class="btn btn-primary">
+                <a asp-controller="Employee" asp-action="SortByPost" class="btn btn-primary">
                     @Localizer["post"]
                 </a>
             </th>
             <th>
-                <a asp-controller="Employee" class="btn btn-primary">
+                <a asp-controller="Employee" asp-action="SortByDate" class="btn btn-primary">
                     @Localizer["date"]
                 </a>
             </th>

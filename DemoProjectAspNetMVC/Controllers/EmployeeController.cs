@@ -16,7 +16,6 @@ namespace DemoProjectAspNetMVC.Controllers
     {
         private readonly DataContext _dataContext;
         private readonly IStringLocalizer<EmployeeController> _localizer;
-        private readonly bool _flag = false;
 
         public EmployeeController(DataContext dataContext, IStringLocalizer<EmployeeController> localizer)
         {
@@ -118,6 +117,42 @@ namespace DemoProjectAspNetMVC.Controllers
             _dataContext.SaveChanges();
             TempData["success"] = "Category deleted successfully";
             return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult SortByName()
+        {
+            IEnumerable<Employee>  employeesList= _dataContext.Employees;
+            IEnumerable<Employee> sortedList = from sN in employeesList orderby sN.FirstName select sN;
+
+            return View("Index", sortedList);
+        }
+        
+        [HttpGet]
+        public IActionResult SortByNameLastName()
+        {
+            IEnumerable<Employee>  employeesList= _dataContext.Employees;
+            var sortedList = from sN in employeesList orderby sN.LastName select sN;
+
+            return View("Index", sortedList);
+        }
+        
+        [HttpGet]
+        public IActionResult SortByPost()
+        {
+            IEnumerable<Employee>  employeesList= _dataContext.Employees;
+            var sortedList = from sN in employeesList orderby sN.Post select sN;
+
+            return View("Index", sortedList);
+        }
+        
+        [HttpGet]
+        public IActionResult SortByDate()
+        {
+            IEnumerable<Employee>  employeesList= _dataContext.Employees;
+            var sortedList = from sN in employeesList orderby sN.Date select sN;
+
+            return View("Index", sortedList);
         }
     }
 }
