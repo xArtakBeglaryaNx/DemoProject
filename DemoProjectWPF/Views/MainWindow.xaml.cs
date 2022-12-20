@@ -28,7 +28,7 @@ namespace DemoProjectWPF.Views
 
         private void AddEmployeeButton_OnClick(object sender, RoutedEventArgs e)
         {
-            AddEmployeeView.AddEmployeeTabItem.Header = LangResources.Language.menuAdd;
+            // AddEmployeeView.AddEmployeeTabItem.Header = LangResources.Language.menuAdd;
             EmployeesTabControl.Items.Add(AddEmployeeView);
             EmployeesTabControl.SelectedItem = AddEmployeeView;
         }

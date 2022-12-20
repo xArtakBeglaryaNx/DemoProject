@@ -12,6 +12,5 @@ public partial class AddEmployeeView : UserControl
 
     private void BackToListButton_OnClick(object sender, RoutedEventArgs e)
     {
-        AddEmployeeControl.Items.RemoveAt(AddEmployeeControl.SelectedIndex);
     }
 }

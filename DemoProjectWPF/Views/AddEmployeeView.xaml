@@ -11,34 +11,30 @@
              BorderThickness="3"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
-    <TabControl Name="AddEmployeeControl">
-        <TabItem Header="{haley:Lang menuAdd}" Name="AddEmployeeTabItem">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
-                <Label Grid.Column="0" Grid.Row="0" Content="{haley:Lang firstName}"></Label>
-                <TextBox Grid.Column="1" Grid.Row="0"></TextBox>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" Content="{haley:Lang firstName}" Foreground="Azure"></Label>
+        <TextBox Grid.Column="1" Grid.Row="0" Foreground="Azure"></TextBox>
 
-                <Label Grid.Column="0" Grid.Row="1" Content="{haley:Lang lastName}"></Label>
-                <TextBox Grid.Column="1" Grid.Row="1"></TextBox>
+        <Label Grid.Column="0" Grid.Row="1" Content="{haley:Lang lastName}" Foreground="Azure"></Label>
+        <TextBox Grid.Column="1" Grid.Row="1" Foreground="Azure"></TextBox>
 
-                <Label Grid.Column="0" Grid.Row="2" Content="{haley:Lang post}"></Label>
-                <TextBox Grid.Column="1" Grid.Row="2"></TextBox>
+        <Label Grid.Column="0" Grid.Row="2" Content="{haley:Lang post}" Foreground="Azure"></Label>
+        <TextBox Grid.Column="1" Grid.Row="2" Foreground="Azure"></TextBox>
 
-                <Button Grid.Column="1" Grid.Row="3" Margin="30,5,150,5" Name="AddButton"
-                        Content="{haley:Lang menuAdd}" FontWeight="DemiBold" 
-                        Foreground="Azure" Width="120"/>
-                <Button Grid.Column="1" Grid.Row="3" Margin="180,5,15,5" Name="BackToListButton"
-                        Content="{haley:Lang backToList}" Width="90" Foreground="Azure" Click="BackToListButton_OnClick"/>
-            </Grid>
-        </TabItem>
-    </TabControl>
+        <Button Grid.Column="1" Grid.Row="3" Margin="30,5,150,5" Name="AddButton"
+                Content="{haley:Lang menuAdd}" FontWeight="DemiBold" 
+                Foreground="Azure" Width="120"/>
+        <Button Grid.Column="1" Grid.Row="3" Margin="180,5,15,5" Name="BackToListButton"
+                Content="{haley:Lang backToList}" Width="90" Foreground="Azure" Click="BackToListButton_OnClick"/>
+    </Grid>
 </UserControl>
